@@ -1,6 +1,6 @@
 [submodule "backendProject"]
 	path = backendProject
-	url = ./backendProject
+	url = https://github.com/ordenmeny/UnitSPI.git
 [submodule "UniMatch-Frontend"]
 	path = UniMatch-Frontend
-	url = ./UniMatch-Frontend
+	url = https://github.com/mmarkizz/UniMatch-Frontend.git
