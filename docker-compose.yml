@@ -1,7 +1,7 @@
 services:
   frontend-app:
     build:
-      context: ./UniMatch-frontend
+      context: ./UniMatch-Frontend
     volumes:
       - frontend_dist:/app/dist
   app:
