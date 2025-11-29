@@ -1,0 +1,6 @@
+[submodule "backendProject"]
+	path = backendProject
+	url = ./backendProject
+[submodule "UniMatch-Frontend"]
+	path = UniMatch-Frontend
+	url = ./UniMatch-Frontend
