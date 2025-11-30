@@ -2,8 +2,8 @@ services:
   frontend-app:
     build:
       context: ./UniMatch-Frontend
-    volumes:
-      - frontend_dist:/app/dist
+#    volumes:
+#      - frontend_dist:/app/dist
   app:
     build:
       context: ./backendProject
@@ -58,11 +58,11 @@ services:
     volumes:
       - static-data:/vol/static
       - media-data:/vol/media
-      - frontend_dist:/usr/share/nginx/html:ro
+#      - frontend_dist:/usr/share/nginx/html:ro
 #      - /etc/letsencrypt:/etc/letsencrypt:ro
 
 volumes:
   db-data:
   static-data:
   media-data:
-  frontend_dist:
+#  frontend_dist:
