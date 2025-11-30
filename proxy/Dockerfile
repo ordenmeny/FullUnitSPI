@@ -13,7 +13,5 @@ RUN mkdir -p /vol/static && \
     mkdir -p /vol/media && \
     chmod +x /run_nginx.sh
 
-COPY --from=frontend-app /app/dist /usr/share/nginx/html
-
 # CMD envsubst '\$http_upgrade \$host \$http_upgrade' < /etc/nginx/default.conf.tpl > /etc/nginx/conf.d/default.conf && exec nginx -g 'daemon off;'
 CMD ["/run_nginx.sh"]
